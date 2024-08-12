@@ -1,0 +1,69 @@
+ body {
+    color: hsl(219, 100%, 17%);
+    background: rgb(153, 175, 250);
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+ }
+
+ header{
+   border-bottom: solid 2px rgb(139, 84, 1);
+   padding: 20px;
+   font-size: 30px;
+   color: rgb(139, 84, 1);
+ }
+
+ .destaque {
+background: hwb(36 1% 21% / 0.507);
+margin: 40px;
+padding: 40px;
+display: flex;
+justify-content: center;
+ }
+
+ .texto{
+   margin-right: 10%;
+ }
+
+
+ h1{
+   font-size: 40px;
+ }
+
+header{
+   font-size: 50px;
+}
+
+p{
+   font-size: 20px;
+}
+
+img{
+  height: 250px;
+}
+
+.kculture{
+display: flex;
+overflow-x:auto ;
+gap: 40px;
+}
+
+.categoria{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: hwb(36 1% 21% / 0.507);
+  margin: 40px;
+  padding: 40px;
+}
+
+.kculture img{
+  opacity: 0.5;
+}
+
+.kculture img:hover{
+  opacity: 1.0;
+  border: #00005cda solid 4px ;
+}
+
+h2{
+  color:rgb(139, 84, 1)
+}
